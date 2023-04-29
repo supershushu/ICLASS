@@ -24,7 +24,7 @@ if interp_pdf:
     nr_bins_int = 200 #nr of bins after interpolation
 remove_prev = True #remove everything starting with 'pp_'
 plot_obsfit = False #plot fit with observations
-constr_succes_state_ens = True#used in e.g. plot_1d_pdfs, can be turned off if unused to reduce number of calculations 
+constr_succes_state_ens = True #used in e.g. plot_1d_pdfs, can be turned off if unused to reduce number of calculations
 if constr_succes_state_ens:
     plot_1d_pdfs = False #plot 1d-pdf
     plot_2d_pdfs = False #plot 2d_pdfs
